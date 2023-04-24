@@ -1,7 +1,6 @@
 {
   "name": "testcafe-qa",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^2.3.1"
-  }
+    "testcafe": "^2.4.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanimal/testcafe-qa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amanimal/testcafe-qa/issues"
+  },
+  "homepage": "https://github.com/Amanimal/testcafe-qa#readme",
+  "description": ""
 }
