@@ -3,9 +3,21 @@ module.exports = {
     username: 'Admin',
     password: 'admin123',
   },
-  // browsers: ['chrome', 'firefox'], // Add the browsers here
-  // reporter: [
-  //   { name: 'spec' },
-  //   { name: 'html', output: 'reports/report.html' }, // Add the report format and output directory here
-  // ],
+  browsers: ['chrome', 'edge', 'firefox'], // Add the browsers here
+  baseUrl: 'https://opensource-demo.orangehrmlive.com/',
+  src: './tests/*.js',
+  screenshots: {
+    path: './screenshots',
+  },
+  videoPath: './videos',
+  reporter: [
+    {
+      name: 'spec',
+      output: './reports/specs.txt',
+    },
+    {
+      name: 'spec',
+      output: './reports/report.html'
+    },
+  ],
 };
