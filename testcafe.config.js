@@ -8,6 +8,8 @@ module.exports = {
   src: './tests/*.js',
   screenshots: {
     path: './screenshots',
+    takeOnFails: true,
+    pathPattern: '${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png'
   },
   videoPath: './videos',
   reporter: [
