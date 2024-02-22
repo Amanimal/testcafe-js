@@ -9,7 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "testcafe": "^2.4.0"
+    "npm-check-updates": "^16.14.15",
+    "testcafe": "^3.5.0"
   },
   "directories": {
     "test": "tests"
